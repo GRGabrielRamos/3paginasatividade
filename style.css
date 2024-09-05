@@ -1,0 +1,54 @@
+html{
+    background-color: #333;
+    color: white
+}
+
+#profile-image{
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#zap{
+    color: #00f93e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00f710;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#zap:hover{
+    background-color: aquamarine;
+    color: rgb(85, 0, 255);
+}
+
+#zap:link{
+    color: #25d366;
+}
+
+#zap:visited{
+    color: #25d366;
+}
+
+#titulo{
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
